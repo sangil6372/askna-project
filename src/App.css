@@ -1,5 +1,17 @@
 .App {
+  width: 100vw;
+  height: 100vw;
   text-align: center;
+  background-color: rgb(183, 208, 212);
+  font-family: 'Roboto', sans-serif;
+
+}
+.Main { 
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  margin-bottom : 30px;
+  border-radius: 10px;
 }
 
 .App-logo {
@@ -35,4 +47,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.profile-img{
+  width: 100%;
+  height : 100%;
+  object-fit: cover;
+  border-radius: 99px;
+  margin-right: auto;
+  
 }
